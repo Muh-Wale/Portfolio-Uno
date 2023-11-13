@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* const [count, setCount] = useState(0)
+<button onClick={() => setCount((count) => count + 1)}> */
+
