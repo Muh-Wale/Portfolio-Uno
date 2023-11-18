@@ -2,6 +2,7 @@ import React from 'react';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 import Typewriter from 'typewriter-effect'
 import { motion, AnimatePresence } from "framer-motion";
+import DP from '/src/assets/ProfilePhoto.png'
 
 
 
@@ -11,7 +12,7 @@ const Body = () => {
         <div className=' max-w-[1300px] mt-10 bg-inherit mx-auto py-5 px-5 md:px-14 lg:px-24 border-b-2 border-black font-anb'>
             <div className='block md:grid grid-cols-6 gap-5 md:gap-7 lg:gap-10'>
                 <div className=' md:hidden flex justify-center'>
-                    <img src="/src/assets/ProfilePhoto.png" alt="" className='max-h-[550px] rounded-md'/>
+                    <img src={DP} alt="" className='max-h-[550px] rounded-md'/>
                 </div>
                 <div className=' flex flex-col justify-center mt-5 md:mt-0 col-span-3 w-full max-w-none md:max-w-[500px]'>
                     <div>

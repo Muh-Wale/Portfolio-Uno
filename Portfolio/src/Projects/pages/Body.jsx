@@ -2,6 +2,8 @@ import React from 'react'
 import { FaArrowDownLong } from "react-icons/fa6"
 import Typewriter from 'typewriter-effect'
 import { motion, AnimatePresence } from "framer-motion";
+import webflow from '/src/assets/Webflow.png'
+import thumbnail from '/src/assets/Thumbnail.png'
 
 const containerVariants = {
     hidden: { 
@@ -109,13 +111,13 @@ const Body = () => {
                         </div>
                     </div>
                     <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[360px]'>
-                        <img src="/src/assets/Webflow.png" alt="" />
+                        <img src={webflow} alt="" />
                     </div>
                 </div>
                 <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
                         <div className='block md:hidden'>
-                            <img src="/src/assets/Thumbnail.png" alt="" />
+                            <img src={thumbnail} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
                             <div className=' font-medium'>
@@ -169,7 +171,7 @@ const Body = () => {
                         </div>
                     </div>
                     <div className='hidden col-span-3 md:flex justify-end'>
-                        <img src="/src/assets/Thumbnail.png" alt="" />
+                        <img src={thumbnail} alt="" />
                     </div>
                 </div>
             </div>
