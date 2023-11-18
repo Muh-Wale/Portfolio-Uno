@@ -87,7 +87,7 @@ const Body = () => {
                 <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
                         <div className='block md:hidden'>
-                            <img src="/src/assets/Webflow.png" alt="" />
+                            <img src={webflow} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
                             <div className=' font-semibold'>
@@ -141,13 +141,13 @@ const Body = () => {
                         </div>
                     </div>
                     <div className='hidden col-span-3 md:flex justify-end'>
-                        <img src="/src/assets/Thumbnail.png" alt="" />
+                        <img src={thumbnail} alt="" />
                     </div>
                 </div>
                 <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
                         <div className='block md:hidden'>
-                            <img src="/src/assets/Thumbnail.png" alt="" />
+                            <img src={thumbnail} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
                             <div className=' font-medium'>

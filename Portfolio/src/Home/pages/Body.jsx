@@ -43,7 +43,7 @@ const Body = () => {
                     </div>
                 </div>
                 <div className=' hidden col-span-3 md:flex justify-end'>
-                    <img src="/src/assets/ProfilePhoto.png" alt="" className=' max-h-[550px]'/>
+                    <img src={DP} alt="" className=' max-h-[550px]'/>
                 </div>
             </div>
             <div className='my-10'>
