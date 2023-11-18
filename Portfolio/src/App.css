@@ -5,3 +5,30 @@
 /* const [count, setCount] = useState(0)
 <button onClick={() => setCount((count) => count + 1)}> */
 
+.font-ans{
+    font-family: 'Inconsolata', monospace;
+}
+.font-ant{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.font-ana{
+    font-family: 'Comic Neue', cursive
+}
+.font-anb{
+    font-family: 'Montserrat', sans-serif;
+}
+.font-anc{
+    font-family: 'Oswald', sans-serif;
+}
+.font-and{
+    font-family: 'Tektur', sans-serif;
+}
+.my-c {
+    @apply relative;
+}
+.my-c::after {
+    @apply content-[''] bg-black h-[2px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300;
+}
+.my-c:hover:after {
+    @apply w-[100%];
+}

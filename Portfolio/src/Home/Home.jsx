@@ -5,7 +5,7 @@ import Footer from './pages/Footer'
 
 const Home = () => {
     return (
-        <div className=' max-w-[1640px] mx-auto bg-[#E5E5E5]'>
+        <div className=' max-w-[1640px] mx-auto bg-[#f4f4f4]'>
             <Navbar/>
             <Body/>
             <Footer/>

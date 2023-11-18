@@ -4,7 +4,7 @@ import Body from './pages/Body'
 
 const Projects = () => {
     return (
-        <div className=' max-w-[1640px] mx-auto bg-[#E5E5E5]'>
+        <div className=' max-w-[1640px] mx-auto bg-[#f4f4f4]'>
             <Navbar/>
             <Body/>
         </div>
