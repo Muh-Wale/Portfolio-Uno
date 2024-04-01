@@ -28,8 +28,8 @@ const Navbar = () => {
                 </div>
                 <div
                     className={`nav-links md:static absolute bg-[#f4f4f4] md:min-h-fit min-h-[35vh] left-0 ${
-                        showMenu ? 'top-[10%]' : 'top-[-100%]'
-                    } md:w-auto w-full flex justify-center items-center px-5 duration-500`}
+                        showMenu ? 'top-[10%]' : 'top-[-45%]'
+                    } md:w-auto w-full flex justify-center items-center px-5 duration-300 ease-linear`}
                 >
                     <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 font-bold text-[#181717] font-ana text-lg'>
                         <li>

@@ -27,10 +27,10 @@ const Footer = () => {
                     <div>
                         Waledxpert   -2023
                     </div>
-                    <div className='mt-2 md:mt-0 flex justify-between gap-3 md:gap-10'>
-                        <a href="">Artisan</a>
-                        <a href="">Linkedln</a>
-                        <a href="">Twitter</a>
+                    <div className='mt-2 md:mt-0 flex gap-5 md:gap-10'>
+                        <a href="" className=' hover:font-semibold duration-100 ease-linear'>Artisan</a>
+                        <a href="" className=' hover:font-semibold duration-100 ease-linear'>Linkedln</a>
+                        <a href="" className=' hover:font-semibold duration-100 ease-linear'>Twitter</a>
                     </div>
                 </div>
             </div>

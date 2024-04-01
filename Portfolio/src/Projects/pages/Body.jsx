@@ -84,7 +84,7 @@ const Body = () => {
                 <FaArrowDownLong size={25} className='cursor-pointer'/>
             </motion.div>
             <div className=' mt-8'>
-                <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
+                <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[500px] py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
                         <div className='block md:hidden'>
                             <img src={webflow} alt="" />
@@ -93,10 +93,10 @@ const Body = () => {
                             <div className=' font-semibold'>
                                 <p>01 / Webflow</p>
                             </div>
-                            <div className='font-semibold pt-3 md:pt-7 font-anc'>
+                            <div className=' md:text-[15px] sm:text-base lg:text-base font-semibold pt-3 md:pt-7 font-anc'>
                                 A comprehensive construction materials website, Showcasing a diverse catalog of high-quality building supplies, ensuring easy access for costumers. Enhances user experience through intuitive navigation and detailed product descriptions. Demonstrated commitment to delivering exceptional service and facilitating successful construction projects.
                             </div>
-                            <div className=' text-[#606060] text-sm py-3 md:py-7'>
+                            <div className=' text-[#606060] text-sm py-3 md:py-4 lg:py-7'>
                                 Built with React JS and Tailwind CSS
                             </div>
                         </div>
@@ -110,7 +110,7 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[360px]'>
+                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
                         <img src={webflow} alt="" />
                     </div>
                 </div>
@@ -120,13 +120,13 @@ const Body = () => {
                             <img src={thumbnail} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
-                            <div className=' font-medium'>
-                                <p>01 / PROJECT NAME</p>
+                            <div className=' font-semibold'>
+                                <p>02 / PROJECT NAME</p>
                             </div>
-                            <div className='font-semibold pt-3 md:pt-7 font-anc'>
+                            <div className=' md:text-[15px] sm:text-base lg:text-base font-semibold pt-3 md:pt-7 font-anc'>
                                 Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.
                             </div>
-                            <div className=' text-[#606060] text-sm py-3 md:py-7'>
+                            <div className=' text-[#606060] text-sm py-3 md:py-4 lg:py-7'>
                                 Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.
                             </div>
                         </div>
@@ -140,7 +140,7 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end'>
+                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
                         <img src={thumbnail} alt="" />
                     </div>
                 </div>
@@ -150,13 +150,13 @@ const Body = () => {
                             <img src={thumbnail} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
-                            <div className=' font-medium'>
-                                <p>01 / PROJECT NAME</p>
+                            <div className=' font-semibold'>
+                                <p>03 / PROJECT NAME</p>
                             </div>
-                            <div className='font-semibold pt-3 md:pt-7 font-anc'>
+                            <div className=' md:text-[15px] sm:text-base lg:text-base font-semibold pt-3 md:pt-7 font-anc'>
                                 Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.
                             </div>
-                            <div className=' text-[#606060] text-sm py-3 md:py-7'>
+                            <div className=' text-[#606060] text-sm py-3 md:py-4 lg:py-7'>
                                 Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.
                             </div>
                         </div>
@@ -170,7 +170,7 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end'>
+                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
                         <img src={thumbnail} alt="" />
                     </div>
                 </div>
@@ -181,10 +181,10 @@ const Body = () => {
                         <div>
                             Waledxpert   -2020
                         </div>
-                        <div className='mt-2 md:mt-0 flex justify-between gap-3 md:gap-10'>
-                            <a href="">Artisan</a>
-                            <a href="">Linkedln</a>
-                            <a href="">Twitter</a>
+                        <div className='mt-2 md:mt-0 flex gap-5 md:gap-10'>
+                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Artisan</a>
+                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Linkedln</a>
+                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Twitter</a>
                         </div>
                     </div>
                 </div>
