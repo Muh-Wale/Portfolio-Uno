@@ -4,6 +4,7 @@ import Typewriter from 'typewriter-effect'
 import { motion, AnimatePresence } from "framer-motion";
 import webflow from '/src/assets/Webflow.png'
 import thumbnail from '/src/assets/Thumbnail.png'
+import Portfolio_Uno from '/src/assets/Portfolio_Uno.png'
 
 const containerVariants = {
     hidden: { 
@@ -36,7 +37,7 @@ const loaderVariants = {
 
 const Body = () => {
     return (
-        <div className=' max-w-[1300px] mt-10 bg-inherit mx-auto py-5 px-5 md:px-14 lg:px-24 font-anb'>
+        <div className=' max-w-[1300px] mt-10 bg-inherit mx-auto py-5 px-5 md:px-14 xsxl:px-24 font-anb'>
             <div className=' mb-10'>
                 <div className=' mt-5 md:mt-0 w-full max-w-none md:max-w-[600px]'>
                     <h1 className=' font-semibold text-2xl lg:text-4xl text-[#181717] font-anb'>
@@ -83,10 +84,12 @@ const Body = () => {
             >
                 <FaArrowDownLong size={25} className='cursor-pointer'/>
             </motion.div>
+
             <div className=' mt-8'>
-                <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[500px] py-8 md:py-16 border-b-2 border-black'>
+
+                <div className='block lg:grid grid-cols-5 gap-5 max-h-fit md:max-h-[700px] lg:max-h-[500px] h-fit py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
-                        <div className='block md:hidden'>
+                        <div className='block lg:hidden'>
                             <img src={webflow} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
@@ -110,29 +113,33 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
+                    <div className='hidden col-span-3 lg:block  justify-end w-full max-h-fit md:max-h-[420px]'>
                         <img src={webflow} alt="" />
                     </div>
                 </div>
-                <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
+
+                <div className='block lg:grid grid-cols-5 gap-5 max-h-fit md:max-h-[700px] lg:max-h-[500px] h-fit py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
-                        <div className='block md:hidden'>
-                            <img src={thumbnail} alt="" />
+                        <div className='block lg:hidden'>
+                            <img src={Portfolio_Uno} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
                             <div className=' font-semibold'>
-                                <p>02 / PROJECT NAME</p>
+                                <p>02 / BankDash</p>
                             </div>
                             <div className=' md:text-[15px] sm:text-base lg:text-base font-semibold pt-3 md:pt-7 font-anc'>
-                                Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.
+                                <p>
+                                This project involved the creation of a comprehensive dashboard model designed to visualize and interpret large, complex data sets effectively. The dashboard model was developed with an emphasis on data clarity and user interaction. The dashboard was designed to assist users in making fast and efficient data-driven decisions.
+                                </p>
+                                <p>Key features consists of: Customizable layout, Data visualization, and Interactive elements</p>
                             </div>
                             <div className=' text-[#606060] text-sm py-3 md:py-4 lg:py-7'>
-                                Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered using Arnold.
+                                Built with React JS and Tailwind CSS
                             </div>
                         </div>
                         <div className=' h-fit md:h-1/2 block md:flex items-end'>
                             <div className=''>
-                                <a href="" 
+                                <a href="https://dashboard-uno.vercel.app/" 
                                     className='my-c my-c::after my-c:hover:after'
                                 >
                                     More shots from this project ↗
@@ -140,13 +147,14 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
-                        <img src={thumbnail} alt="" />
+                    <div className='hidden col-span-3 lg:flex justify-end w-full max-h-fit md:max-h-[420px]'>
+                        <img src={Portfolio_Uno} alt="" />
                     </div>
                 </div>
-                <div className='block md:grid grid-cols-5 gap-5 max-h-fit md:max-h-[450px] py-8 md:py-16 border-b-2 border-black'>
+
+                <div className='block lg:grid grid-cols-5 gap-5 max-h-fit md:max-h-[700px] lg:max-h-[500px] h-fit py-8 md:py-16 border-b-2 border-black'>
                     <div className=' col-span-2 h-full'>
-                        <div className='block md:hidden'>
+                        <div className='block lg:hidden'>
                             <img src={thumbnail} alt="" />
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
@@ -170,16 +178,18 @@ const Body = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='hidden col-span-3 md:flex justify-end w-full max-h-fit md:max-h-[420px]'>
+                    <div className='hidden col-span-3 lg:flex justify-end w-full max-h-fit md:max-h-[420px]'>
                         <img src={thumbnail} alt="" />
                     </div>
                 </div>
+
             </div>
+
             <div>
                 <div className=' mt-12 md:mt-24 py-5'>
                     <div className='block md:flex justify-between font-anb'>
                         <div>
-                            Waledxpert   -2020
+                            @Waledxpert   -2024
                         </div>
                         <div className='mt-2 md:mt-0 flex gap-5 md:gap-10'>
                             <a href="" className=' hover:font-semibold duration-100 ease-linear'>Artisan</a>

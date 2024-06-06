@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='max-w-[1300px] bg-inherit mx-auto py-5 px-5 md:px-14 lg:px-24'>
+        <div className='max-w-[1300px] bg-inherit mx-auto py-5 px-5 md:px-14 xsxl:px-24'>
             <nav className='flex justify-between items-center'>
                 <div className='flex gap-5 '>
                     <motion.a
