@@ -2,7 +2,7 @@ import React from 'react';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 import Typewriter from 'typewriter-effect'
 import { motion, AnimatePresence } from "framer-motion";
-import DP from '/src/assets/ProfilePhoto.png'
+import DP from '/src/assets/DP.jpg'
 import { useGSAP } from "@gsap/react"
 import gsap from 'gsap';
 
@@ -60,8 +60,12 @@ const Body = () => {
                         </div>
                     </div>
                 </div>
-                <div className=' hidden col-span-3 md:flex justify-end'>
-                    <img src={DP} alt="" className=' max-w-[340px] lg:max-w-[400px] h-full rounded-2xl'/>
+                <div className='hidden col-span-3 md:flex justify-end'>
+                    <img 
+                        src={DP} 
+                        alt="" 
+                        className='max-w-[340px] lg:max-w-[400px] w-full h-auto rounded-2xl object-cover'
+                    />
                 </div>
             </div>
             <div className='my-10'>

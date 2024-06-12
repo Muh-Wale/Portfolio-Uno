@@ -108,7 +108,7 @@ const Body = () => {
                                 <a href="https://webflow-lake.vercel.app/" 
                                     className='my-c my-c::after my-c:hover:after'
                                 >
-                                    More shots from this project ↗
+                                    Further Screens from This Project ↗
                                 </a>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ const Body = () => {
                                 <a href="https://dashboard-uno.vercel.app/" 
                                     className='my-c my-c::after my-c:hover:after'
                                 >
-                                    More shots from this project ↗
+                                    Further Screens from This Project ↗
                                 </a>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ const Body = () => {
                                 <a href="" 
                                     className='my-c my-c::after my-c:hover:after'
                                 >
-                                    More shots from this project ↗
+                                    Further Screens from This Project ↗
                                 </a>
                             </div>
                         </div>
@@ -185,16 +185,16 @@ const Body = () => {
 
             </div>
 
-            <div>
+            <div id='footer'>
                 <div className=' mt-12 md:mt-24 py-5'>
                     <div className='block md:flex justify-between font-anb'>
                         <div>
                             @Waledxpert   -2024
                         </div>
                         <div className='mt-2 md:mt-0 flex gap-5 md:gap-10'>
-                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Artisan</a>
-                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Linkedln</a>
-                            <a href="" className=' hover:font-semibold duration-100 ease-linear'>Twitter</a>
+                            <a href="https://github.com/Muh-Wale" className=' hover:font-semibold duration-100 ease-linear'>GitHub</a>
+                            <a href="https://www.linkedin.com/in/muhammad-abdulazeez-796721261" className=' hover:font-semibold duration-100 ease-linear'>Linkedln</a>
+                            <a href="https://x.com/muh_wale" className=' hover:font-semibold duration-100 ease-linear'>Twitter</a>
                         </div>
                     </div>
                 </div>

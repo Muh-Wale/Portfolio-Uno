@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-import { motion} from "framer-motion";
-import { CSSTransition } from 'react-transition-group';
-
+import { motion } from 'framer-motion'
+import { CSSTransition } from 'react-transition-group'
+import { Link as ScrollLink } from 'react-scroll' // Import react-scroll
 
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false);
+    const [showMenu, setShowMenu] = useState(false)
 
     const toggleMenu = () => {
-        setShowMenu(!showMenu);
-    };
+        setShowMenu(!showMenu)
+    }
 
     return (
         <div className='max-w-[1300px] bg-inherit mx-auto py-5 px-5 md:px-14 xsxl:px-24'>
@@ -43,9 +43,14 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to='/' className='hover:text-gray-700 duration-150'>
+                            <ScrollLink
+                                to='footer'
+                                smooth={true}
+                                duration={500}
+                                className='hover:text-gray-700 duration-150 cursor-pointer'
+                            >
                                 Contact
-                            </Link>
+                            </ScrollLink>
                         </li>
                     </ul>
                 </div>
@@ -64,6 +69,7 @@ const Navbar = () => {
                 </div>
             </nav>
         </div>
-    );
+    )
 }
+
 export default Navbar
