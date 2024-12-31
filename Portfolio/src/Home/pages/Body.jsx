@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
-import Typewriter from 'typewriter-effect'
-import { motion, AnimatePresence } from "framer-motion";
-import DP from '/src/assets/DP.jpg'
+// import Typewriter from 'typewriter-effect'
+// import { motion, AnimatePresence } from "framer-motion";
+import DP from '/src/assets/ad.jpg'
 import { useGSAP } from "@gsap/react"
 import gsap from 'gsap';
 
@@ -75,7 +75,7 @@ const Body = () => {
                             <h1 className=' font-semibold md:font-normal'>Main Languages</h1>
                         </div>
                         <div className=' max-w-none w-full md:w-9/12 mt-3 md:mt-0'>
-                            <p>Html, CSS, SCSS, Bootstrap, Tailwind, Javascript, Typescript, React JS, Next Js</p>
+                            <p>Html, CSS, Javascript, Typescript React JS, Next Js SCSS, Bootstrap, Tailwind CSS, MongoDB, PostgreSQL, Node, Redux, Zustand</p>
                         </div>
                     </div>
                     {/* <div className='block md:flex max-w-none lg:max-w-[700px] justify-between'>

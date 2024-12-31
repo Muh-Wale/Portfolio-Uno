@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6"
 import Resume from '/src/assets/Resume.pdf'
 
