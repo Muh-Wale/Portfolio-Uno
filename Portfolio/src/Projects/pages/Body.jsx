@@ -190,7 +190,7 @@ const Body = () => {
                         </div>
                         <div className=' mt-3 md:mt-0 h-fit md:h-1/2'>
                             <div className=' font-semibold'>
-                                <p>04 / Real Estate Listing Website</p>
+                                <p>04 / Happy Hamster</p>
                             </div>
                             <div className=' md:text-[15px] sm:text-base lg:text-base font-semibold pt-3 md:pt-7 font-anc'>
                                 The objective was to design a captivating and informative landing page for an upcoming cryptocurrency, aimed at building excitement, educating potential investors, and driving sign-ups for early access. The page needed to convey trust, transparency, and the unique value proposition of the coin while aligning with industry trends. The design included key sections such as the coin’s features, tokenomics, roadmap, team bios, and FAQs.
